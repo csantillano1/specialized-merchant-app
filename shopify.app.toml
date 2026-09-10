@@ -2,7 +2,7 @@
 
 client_id = "01f281b1363164d7d521ae37a25eab0a"
 name = "specialized-merchant-app"
-application_url = "https://example.com"
+application_url = "https://specialized-merchant-app.onrender.com"
 embedded = true
 
 [build]
@@ -24,7 +24,7 @@ api_version = "2026-10"
 scopes = "read_orders,write_products,write_metaobjects,write_metaobject_definitions,write_files"
 
 [auth]
-redirect_urls = [ "https://example.com/api/auth" ]
+redirect_urls = [ "https://specialized-merchant-app.onrender.com/api/auth" ]
 
 [product.metafields.app.demo_info]
 type = "single_line_text_field"
